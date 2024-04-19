@@ -1,0 +1,99 @@
+.account-pay {
+    width: auto;
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .100);
+    justify-content: center;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    font-style: semibold;
+    margin-bottom: 40px;
+}
+
+.title h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form-menu-pay {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-menu-pay-options{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-menu-pay h3 {
+    margin-right: 10px;
+}
+
+.form-menu-pay h3 a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.form-menu-pay h3:hover {
+    border-bottom: 3px solid #6c63ff;
+}
+
+.button-add-account {
+    width: 120px;
+}
+
+.button-add-account button {
+    width: 100%;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-add-account button:hover {
+    background-color: #4f46e5;
+}
+
+.button-add-account button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+table {
+    margin: 5px;
+}
+
+th {
+    background-color: #6b6b6b;
+}
+
+td {
+  border-bottom: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+tfoot {
+    font-weight: bold;
+}

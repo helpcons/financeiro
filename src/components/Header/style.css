@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    float: left;
+    width: auto;
+}
+
+.company-infos {
+    font-size: 0.9rem;
+}
+
+#logo img{
+    width: 32px;
+}
+
+.search {
+    width: 200px;
+    /* margin-left: 100px; */
+    float: left;
+}
+
+.user{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    text-align: right;
+    gap: 15px;
+}
+
+.user p span{
+    font-size: small;
+}
+
+.user img{
+    width: 32px;
+    border-radius: 25px;
+}
+
+.arrow-user {
+    width: 32px;
+}
